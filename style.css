@@ -1,15 +1,3 @@
-/* ---- reset ---- */
-
-body {
-    margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
-}
-
-canvas {
-    display: block;
-    vertical-align: bottom;
-}
-
 /* ---- particles.js container ---- */
 
 #particles-js {
@@ -22,3 +10,50 @@ canvas {
     background-size: cover;
     background-position: 50% 50%;
 }
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+#header1 {
+    font-family: "Avenir";
+    color: #454d55;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+
+#header3 {
+    font-family: "Avenir";
+    color: #454d55;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left:20px;
+}
+
+.img1 {
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    margin-top: 482px;
+    margin-left: 20px;
+}
+
+#img2 {
+    margin-top: 489px;
+    margin-left: 100px;
+    height: 8%;
+    width: 4%;
+}
+
+#img3 {
+    height: 19%;
+    width: 10%;
+    margin-top: 456px;
+    margin-left: 130px;
+}
+
+
