@@ -85,6 +85,7 @@
     margin-left: 200px;
     margin-bottom: 40px;
     border-radius: 5px;
+    list-style-type: none;
 }
 
 .project2 {
@@ -124,4 +125,17 @@
     object-fit: contain;
     margin: 25px;
     border-radius: 5px;
+
+}
+
+.link {
+    background-color: #9fcdff;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    width: 70%;
 }
