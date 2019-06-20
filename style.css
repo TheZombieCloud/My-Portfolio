@@ -20,8 +20,10 @@
     font-family: "Avenir";
     color: #454d55;
     font-size: 100px;
-    position: absolute;
-    margin-top: 350px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25%;
     margin-left: 20px;
 }
 
@@ -29,51 +31,58 @@
     font-family: "Avenir";
     color: #454d55;
     font-size: 40px;
-    position: absolute;
-    margin-top: 450px;
+    position: relative;
+    /*margin-top: 450px;*/
+    margin: 0px;
+    padding: 0px;
     margin-left:20px;
 }
 
 .img1 {
-    height: 10%;
-    width: 5%;
-    position: absolute;
-    margin-top: 482px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    /*margin-top: 482px;*/
+    margin: 10px;
     margin-left: 20px;
+    margin-bottom: 2%;
 }
 
 #img2 {
-    margin-top: 489px;
-    margin-left: 100px;
-    height: 8%;
-    width: 4%;
+    /*margin-top: 489px;*/
+    /*margin-left: 100px;*/
+    margin: 0px;
+    margin-bottom: 2%;
 }
 
 #img3 {
-    height: 19%;
-    width: 10%;
-    margin-top: 456px;
-    margin-left: 130px;
+    margin: 0px;
+    margin-bottom:2%;
+    /*margin-top: 456px;*/
+    /*margin-left: 130px;*/
 }
 
 .content {
-    position: absolute;
+    position: relative;
     background-color: #f5f5f5;
     color: #454d55;
-    margin-top: 585px;
+    /*margin-top: 585px;*/
     font-family: "Avenir";
     width: 100%;
+    grid-row: 2;
+    grid-row-end: 3;
 }
 
 .shift {
     position: relative;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-top: 50px;
     font-size: 40px;
 }
 
 #contentext {
     font-size: 25px;
+    width: 70%;
 }
 
 #contentext2 {
@@ -82,7 +91,7 @@
 
 .project1 {
     margin-top: 75px;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-bottom: 40px;
     border-radius: 5px;
     list-style-type: none;
@@ -92,27 +101,34 @@
     border-radius: 5px;
     background-color: #bcc5cb;
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 140px auto;
     margin-bottom: 15px;
 }
 
+.start {
+    grid-row: 1;
+    grid-row-end: 2;
+}
+
 .end {
-    position: absolute;
+    position: relative;
     color: #f5f5f5;
     background-color: #454d55;
-    margin-top: 1653px;
+    /*margin-top: 1653px;*/
     font-family: "Avenir";
     width: 100%;
+    grid-row: 3;
+    grid-row-end: 4;
 }
 
 .contact {
-    margin-left: 200px;
+    margin-left: 15%;
     margin-top: 75px;
     font-size: 40px;
 }
 
 .contact2 {
-    margin-left: 200px;
+    margin-left: 15%;
     font-size: 25px;
 }
 
@@ -163,6 +179,12 @@ a:hover{
     background-color: rgb(146, 182, 255);
     text-decoration: none;
     color: #454d55;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
 }
 
 ul {
