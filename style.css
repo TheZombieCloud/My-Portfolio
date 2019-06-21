@@ -108,6 +108,7 @@
 .start {
     grid-row: 1;
     grid-row-end: 2;
+    height: 100vh;
 }
 
 .end {
