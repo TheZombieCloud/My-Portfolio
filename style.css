@@ -19,7 +19,7 @@
 #header1 {
     font-family: "Avenir";
     color: #454d55;
-    font-size: 8vw;
+    font-size: 100px;
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -30,7 +30,7 @@
 #header3 {
     font-family: "Avenir";
     color: #454d55;
-    font-size: 3.2vw;
+    font-size: 40px;
     position: relative;
     /*margin-top: 450px;*/
     margin: 0px;
@@ -43,9 +43,8 @@
     width: 50px;
     position: relative;
     /*margin-top: 482px;*/
-    margin: 0px;
+    margin: 10px;
     margin-left: 20px;
-    margin-right: 1%;
     margin-bottom: 2%;
 }
 
@@ -53,14 +52,12 @@
     /*margin-top: 489px;*/
     /*margin-left: 100px;*/
     margin: 0px;
-    margin-right: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 #img3 {
     margin: 0px;
-    margin-right: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     /*margin-top: 456px;*/
     /*margin-left: 130px;*/
 }
@@ -80,16 +77,16 @@
     position: relative;
     margin-left: 15%;
     margin-top: 50px;
-    font-size: 3.2vw;
+    font-size: 40px;
 }
 
 #contentext {
-    font-size: 2vw;
+    font-size: 25px;
     width: 70%;
 }
 
 #contentext2 {
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .project1 {
@@ -128,12 +125,12 @@
 .contact {
     margin-left: 15%;
     margin-top: 75px;
-    font-size: 3.2vw;
+    font-size: 40px;
 }
 
 .contact2 {
     margin-left: 15%;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 #bottoms {
