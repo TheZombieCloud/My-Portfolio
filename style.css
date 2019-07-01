@@ -197,3 +197,207 @@ ul {
     margin: 0px;
     width: 70%;
 }
+
+@media only screen and (max-width: 500px){
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    @font-face {
+        font-family: Avenir;
+        src: url(AvenirLTStd-Book.otf);
+    }
+
+    #header1 {
+        font-family: "Avenir";
+        color: #454d55;
+        font-size: 50px;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 50vh;
+        margin-left: 2vw;
+    }
+
+    #header3 {
+        font-family: "Avenir";
+        color: #454d55;
+        font-size: 15px;
+        position: relative;
+        /*margin-top: 450px;*/
+        margin: 0px;
+        margin-top: -20px;
+        padding: 0px;
+        margin-left:2vw;
+    }
+
+    .img1 {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        /*margin-top: 482px;*/
+        margin: 0vw;
+        margin-top: -10px;
+        margin-left: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    #img2 {
+        /*margin-top: 489px;*/
+        /*margin-left: 100px;*/
+        margin: 0px;
+        margin-top: -10px;
+        margin-bottom: 1%;
+    }
+
+    #img3 {
+        margin: 0px;
+        margin-top: -10px;
+        margin-bottom: 1%;
+        /*margin-top: 456px;*/
+        /*margin-left: 130px;*/
+    }
+
+    .content {
+        position: relative;
+        background-color: #f5f5f5;
+        color: #454d55;
+        /*margin-top: 585px;*/
+        font-family: "Avenir";
+        width: 100%;
+        grid-row: 2;
+        grid-row-end: 3;
+    }
+
+    .shift {
+        position: relative;
+        margin-left: 1vw;
+        margin-top: 9vh;
+        font-size: 20px;
+    }
+
+    #contentext {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    #contentext2 {
+        font-size: 14px;
+    }
+
+    .project1 {
+        margin-top: 13vh;
+        margin-left: 1vw;
+        margin-bottom: 7vh;
+        border-radius: 5px;
+        list-style-type: none;
+    }
+
+    .project2 {
+        border-radius: 5px;
+        background-color: #bcc5cb;
+        display: grid;
+        grid-template-columns: 100px auto;
+        margin-bottom: 15px;
+    }
+
+    .start {
+        grid-row: 1;
+        grid-row-end: 2;
+        min-height: 100vh;
+    }
+
+    .end {
+        position: relative;
+        color: #f5f5f5;
+        background-color: #454d55;
+        /*margin-top: 1653px;*/
+        font-family: "Avenir";
+        width: 100%;
+        grid-row: 3;
+        grid-row-end: 4;
+    }
+
+    .contact {
+        margin-left: 1vw;
+        margin-top: 9vh;
+        font-size: 17px;
+    }
+
+    .contact2 {
+        margin-left: 1vw;
+        font-size: 12px;
+    }
+
+    #bottoms {
+        margin-bottom: 45px;
+    }
+
+    #pbottoms {
+        margin-bottom: 90px;
+    }
+
+    .imgs {
+        object-fit: contain;
+        margin: 25px;
+        height: 89px;
+        width: 89px;
+        border-radius: 5px;
+        grid-column: 1;
+        grid-column-end: 2;
+        grid-row: 1;
+        grid-row-end: 2;
+    }
+
+    .link {
+        background-color: #afcfff;
+        width: 80%;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #202326;
+        margin: 25px;
+        padding: 0px;
+        grid-column: 2;
+        grid-column-end: 3;
+        grid-row: 1;
+        grid-row-end: 2;
+    }
+
+    .link > h2 {
+        margin-left: 1vw;
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .link > p {
+        margin-left: 1vw;
+        font-size: 10px;
+        width: 90%;
+    }
+
+    a:hover{
+        background-color: rgb(146, 182, 255);
+        text-decoration: none;
+        color: #454d55;
+    }
+
+    body {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        width: 70%;
+    }
+}
