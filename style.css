@@ -180,6 +180,10 @@
     width: 90%;
 }
 
+#banner {
+
+}
+
 a:hover{
     background-color: rgb(146, 182, 255);
     text-decoration: none;
@@ -220,9 +224,10 @@ ul {
         color: #454d55;
         font-size: 50px;
         position: relative;
-        margin: 0px;
+        margin: auto;
+        text-align: center;
         padding: 0px;
-        margin-top: 50vh;
+        margin-top: 50%;
         margin-left: 2vw;
     }
 
@@ -232,10 +237,22 @@ ul {
         font-size: 15px;
         position: relative;
         /*margin-top: 450px;*/
-        margin: 0px;
+        margin: auto;
+        text-align: center;
         margin-top: -20px;
         padding: 0px;
         margin-left:2vw;
+    }
+
+    #banner {
+        /*background-color: #ffffff;*/
+    }
+
+    .img {
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     .img1 {
@@ -243,24 +260,20 @@ ul {
         width: 50px;
         position: relative;
         /*margin-top: 482px;*/
-        margin: 0vw;
-        margin-top: -10px;
-        margin-left: 2vw;
-        margin-bottom: 2vw;
+        margin: auto;
+        vertical-align: middle;
     }
 
     #img2 {
         /*margin-top: 489px;*/
         /*margin-left: 100px;*/
-        margin: 0px;
-        margin-top: -10px;
-        margin-bottom: 1%;
+        margin: auto;
+        vertical-align: middle;
     }
 
     #img3 {
-        margin: 0px;
-        margin-top: -10px;
-        margin-bottom: 1%;
+        margin: auto;
+        vertical-align: middle;
         /*margin-top: 456px;*/
         /*margin-left: 130px;*/
     }
@@ -278,14 +291,17 @@ ul {
 
     .shift {
         position: relative;
+        text-align: center;
         margin-left: 1vw;
         margin-top: 9vh;
         font-size: 20px;
     }
 
     #contentext {
+        margin: auto;
+        margin-top: 9vh;
         font-size: 14px;
-        width: 70%;
+        /*width: 70%;*/
     }
 
     #contentext2 {
@@ -294,10 +310,12 @@ ul {
 
     .project1 {
         margin-top: 13vh;
-        margin-left: 1vw;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 7vh;
         border-radius: 5px;
         list-style-type: none;
+        text-align: center;
     }
 
     .project2 {
@@ -321,6 +339,7 @@ ul {
         /*margin-top: 1653px;*/
         font-family: "Avenir";
         width: 100%;
+        text-align: center;
         grid-row: 3;
         grid-row-end: 4;
     }
