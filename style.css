@@ -184,7 +184,7 @@
 
 }
 
-a:hover{
+li > a:hover{
     background-color: rgb(146, 182, 255);
     text-decoration: none;
     color: #454d55;
@@ -245,7 +245,7 @@ ul {
     }
 
     #banner {
-        /*background-color: #ffffff;*/
+        background-color: #202326;
     }
 
     .img {
@@ -402,7 +402,7 @@ ul {
         width: 90%;
     }
 
-    a:hover{
+    li > a:hover{
         background-color: rgb(146, 182, 255);
         text-decoration: none;
         color: #454d55;
